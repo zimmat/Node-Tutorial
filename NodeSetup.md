@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Node Setup
 ---
 
 # Setup Node JS

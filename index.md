@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Index
+title: Javascript on the command line
 ---
 
 # Javascript on the command line

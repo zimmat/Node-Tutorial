@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Useful functions built into Javascript
 ---
 
 ## Useful functions built into Javascript

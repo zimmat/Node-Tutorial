@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Let's get modular
 ---
 
 ## Let's get modular

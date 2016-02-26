@@ -1,14 +1,26 @@
 <footer class="site-footer">
   <nav class="main-nav" id="menu">
     <ol>
-      {% assign currentpage = page.url %}
-      {% for page in site.pages %}
-        {% unless page.url contains ".css" %}
+      <li>
+        <a href="{{ site.baseurl }}/" {% if page.url == "/" %}class = "active"{% endif %}>Javascript on the command line</a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/NodeSetup.html" {% if page.url == "/NodeSetup.html" %}class = "active"{% endif %}>Node Setup</a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/NodeBackground.html" {% if page.url == "/NodeBackground.html" %}class = "active"{% endif %}>Node Background</a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/node-tutorial/" {% if page.url == "/node-tutorial/" %}class = "active"{% endif %}>Node Tutorial</a>
+        <ol>
           <li>
-            <a href="{{ site.baseurl }}{{ page.url }}" {% if currentpage == page.url %}class = "active"{% endif %}>{{ page.title }}</a>
+            <a href="{{ site.baseurl }}/node-tutorial/useful-functions-built-into-javascript.html" {% if page.url == "/node-tutorial/useful-functions-built-into-javascript.html" %}class = "active"{% endif %}>Useful functions built into Javascript</a>
           </li>
-        {% endunless %}
-      {% endfor %}
+          <li>
+            <a href="{{ site.baseurl }}/node-tutorial/lets-get-modular.html" {% if page.url == "/node-tutorial/lets-get-modular.html" %}class = "active"{% endif %}>Let's get modular</a>
+          </li>
+        </ol>
+      </li>
     </ol>
   </nav>
 </footer>
