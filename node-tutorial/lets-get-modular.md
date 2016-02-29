@@ -46,5 +46,3 @@ The module should be in a file called:
         });
         ```
 * use this folder as input: `./files/week1`
-
-**Once all the tests are passing you are done!**
