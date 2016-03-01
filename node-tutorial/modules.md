@@ -90,6 +90,6 @@ To the screen
 
 If you run `mocha` the 'Constructor module' test should pass.
 
-Objects in Javascript has various useful methods that makes it easy to do various tasks: [Useful functions built into Javascript](useful-functions-built-into-javascript.html).
 
-Once you've read about those, let's [use your newly found knowledge about modules](lets-get-modular.html).
+
+Now use [your newly found knowledge about modules](lets-get-modular.html).

@@ -9,3 +9,5 @@ Change the program that is in the filter-numbers.js file to only print the even 
 Run the program from the command line using: `node filter-numbers.js`
 
 Run `mocha` from the command line. At least two tests should pass at this stage.
+
+Now get going and [print some users](/node-tutorial/print.html) to the console.
