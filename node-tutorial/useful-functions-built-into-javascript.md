@@ -120,4 +120,4 @@ console.log(uppercaseWords);
 //["ONE", "DAY", "I", "WENT", "TO", "THE", "AQUARIUM"]
 ```
 
-Now let's [use your newly found knowledge about modules](lets-get-modular.md).
+Now let's [use your newly found knowledge about modules](lets-get-modular.html).
