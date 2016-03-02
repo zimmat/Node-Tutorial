@@ -101,6 +101,7 @@ console.log(shortWords);
 //["One", "day", "I", "to", "the"]
 
 ```
+
 #### map
 
 `map` is an easy way to convert/change all the values in an Array:
